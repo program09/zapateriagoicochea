@@ -1,0 +1,101 @@
+.cards{
+    padding: 2px !important;
+    border: 0 !important;
+}
+.card{
+    padding: 0 !important;
+    border-radius: 0 !important;
+}
+.card-body{
+    padding: 0 !important;
+}
+.cardimg{
+    width: 100% !important;
+    height: auto;
+}
+
+.cardimg img{
+    width: 100% !important;
+    height: auto;
+}
+.detalles{
+    padding: 5px;
+    width: 100% !important;
+    display: block !important;
+}
+
+.detalles p{
+    margin: 0 !important;
+}
+.detalles a{
+    width: 100% !important;
+    float: right;
+    padding: 5px;
+    background: #04AA6D;
+    color:rgb(255, 255, 255);
+    margin-bottom: 5px;
+    margin-top: 4px;
+    text-decoration: none;
+    text-align: center;
+}
+.detalles a:hover{
+    color:rgb(255, 255, 255);
+    background: #04aa6ddc;
+}
+
+
+.button {
+    position: relative;
+    background-color: #4CAF50;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.button:after {
+    content: "";
+    background: #90EE90;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+.modal-header {
+    padding-top:0 !important;
+    padding-bottom:0 !important;
+}
+.modal-header h1{
+    color: #04AA6D;
+}
+
+.modal-header h1 b{
+    color: #363837;
+}
+
+.modal-body{
+    padding:0 !important;
+}
+
+.cardimgm{
+    width: 100% !important;
+}
+
+.cardimgm img{
+    width: 100% !important;
+}

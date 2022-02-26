@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Narbar 1</title>
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/principal.css">
+    <link rel="stylesheet" href="./css/catalogo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
+</head>
+<body>      
+    <div class="headers">
+        <h1>G-<b>Shoes</b></h1>
+        <nav>
+            <a class="activest" href="#home">Home</a>
+            <a href="#nosotros">Nosotros</a>   
+            <a href="#galeria">Galería</a>
+            <a href="#contactos">Contactos</a>
+        </nav>
+        <button title="menu"  class="btncerrart" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">      
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </button>   
+    </div>
+    <div class="offcanvas offcanvas-end" onclick="myFunction(this)" id="demo">
+        <div class="offcanvas-header">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <a class="actives" href="#home">Home</a>
+            <a href="#nosotros">Nosotros</a>
+            <a href="#galeria">Galería</a>
+            <a href="#contactos">Contacto</a>
+            
+        </div>
+    </div>
+
+
+    <main>
+        <div class="">
+            <div class="sidebar">
+                <!-- Nav pills -->           
+                <div class="ul">
+                    <h6>Categorias</h6>
+                    <ul class="nav nav-pills" role="tablist">
+                        <li class="nav-item">
+                            <a class=" active" data-bs-toggle="pill" href="#home">Hombres</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="" data-bs-toggle="pill" href="#menu1">Mujeres</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="" data-bs-toggle="pill" href="#menu2">Accesorios</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="asider">
+                    <ul>
+                        <li>
+                            <input type="checkbox" name=""/><p>Zapatos hombre</p>
+                        </li>
+                        <li>
+                            <input type="checkbox" name=""/><p>Zapatos mujer</p>
+                        </li>
+                        <li>
+                            <input type="checkbox" name=""/><p>Botas hombre</p>
+                        </li>
+                        <li>
+                            <input type="checkbox" name=""/><p>Botas mujer</p>
+                        </li>
+                        <li>
+                            <input type="checkbox" name=""/><p>Zapatillas</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="asider">
+                    <p class="drt"> Copyright <script>document.write(new Date().getFullYear())</script> by <a href="https://program09.github.io/Curriculumyordialcantarapaico/" target="_blank">Yordi Alcántara Paico</a></p>
+                </div>
+
+            
+            
+            </div>
+            
+            <div class="content">
+                <br><br><br><br>
+                <h2>Nuestro catálogo</h2>
+
+                <div class="buscador">
+                    <input type="search" placeholder="Buscar producto, categoría, etc">
+                    <button>Buscar</button>
+                </div>
+
+                <div class="navegarcelphon">
+                    <ul class="nav nav-pills" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-bs-toggle="pill" href="#home">Hombres</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="pill" href="#menu1">Mujeres</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="pill" href="#menu2">Accesorios</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Tab panes -->
+                <section>
+                    <div class="tab-content">
+                        <div id="home" class=" tab-pane active"><br>
+                            <section>
+
+                                <div class="row">
+                                    <div class="cards col-xl-3 col-md-4 col-sm-4 col-6">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="cardimg">
+                                                    <img src="./Imagenes/1632632461339.png" alt="">
+                                                </div>
+                                                <div class="detalles">
+                                                    <p>Nombre</p>
+                                                    <p>S/.000</p>
+                                                    <a class="button" href="" data-bs-toggle="modal" data-bs-target="#card1">Ver</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+            
+                                    <div class="cards col-xl-3 col-md-4 col-sm-4 col-6">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="cardimg">
+                                                    <img src="./Imagenes/1632632461353.png" alt="">
+                                                </div>
+                                                <div class="detalles">
+                                                    <p>Nombre</p>
+                                                    <p>S/.000</p>
+                                                    <a href="" data-bs-toggle="modal" data-bs-target="#card2">Ver</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+            
+                                    <div class="cards col-xl-3 col-md-4 col-sm-4 col-6">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="cardimg">
+                                                    <img src="./Imagenes/1632632461367.png" alt="">
+                                                </div>
+                                                <div class="detalles">
+                                                    <p>Nombre</p>
+                                                    <p>S/.000</p>
+                                                    <a href="" data-bs-toggle="modal" data-bs-target="#card3">Ver</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="cards col-xl-3 col-md-4 col-sm-4 col-6">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="cardimg">
+                                                    <img src="./Imagenes/1632632461404.png" alt="">
+                                                </div>
+                                                <div class="detalles">
+                                                    <p>Nombre</p>
+                                                    <p>S/.000</p>
+                                                    <a href="" data-bs-toggle="modal" data-bs-target="#card4">Ver</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+            
+                                </div>
+                                <!--MODALES-->
+                                    
+                                    <!-- The Modal -->
+                                    <div class="modal" id="card1">
+                                        <div class="modal-dialog">
+                                        <div class="modal-content"> 
+                                            <div class="modal-header">
+                                                <h1 class="modal-title">G <b> Shoes</b></h1>
+                                                
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                            </div>
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                <div class="cardimgm">
+                                                    <img src="./Imagenes/1632632461339.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal" id="card2">
+                                        <div class="modal-dialog">
+                                        <div class="modal-content"> 
+                                            <div class="modal-header">
+                                                <h1 class="modal-title">G <b> Shoes</b></h1>
+                                                
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                            </div>
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                <div class="cardimgm">
+                                                    <img src="./Imagenes/1632632461353.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal" id="card3">
+                                        <div class="modal-dialog">
+                                        <div class="modal-content"> 
+                                            <div class="modal-header">
+                                                <h1 class="modal-title">G <b> Shoes</b></h1>
+                                                
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                            </div>
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                <div class="cardimgm">
+                                                    <img src="./Imagenes/1632632461367.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal" id="card4">
+                                        <div class="modal-dialog">
+                                        <div class="modal-content"> 
+                                            <div class="modal-header">
+                                                <h1 class="modal-title">G <b> Shoes</b></h1>
+                                                
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                            </div>
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                <div class="cardimgm">
+                                                    <img src="./Imagenes/1632632461404.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                <!--MODALES-->
+                            </section>
+                        </div>
+                        <div id="menu1" class=" tab-pane  fade"><br>
+                            <section>
+
+                                <div class="row">
+                                    <div class="cards col-xl-3 col-md-4 col-sm-4 col-6">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="cardimg">
+                                                    <img src="./Imagenes/1632632461380.png" alt="">
+                                                </div>
+                                                <div class="detalles">
+                                                    <p>Nombre</p>
+                                                    <p>S/.000</p>
+                                                    <a class="button" href="" data-bs-toggle="modal" data-bs-target="#cardmujer1">Ver</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="cards col-xl-3 col-md-4 col-sm-4 col-6">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="cardimg">
+                                                    <img src="./Imagenes/1632632461392.png" alt="">
+                                                </div>
+                                                <div class="detalles">
+                                                    <p>Nombre</p>
+                                                    <p>S/.000</p>
+                                                    <a class="button" href="" data-bs-toggle="modal" data-bs-target="#cardmujer2">Ver</a>
+                                                </div>
+                                            </div>
+                                        </div>
+            
+                                </div>
+                                <!--MODALES MUJERES-->
+                                    <div class="modal" id="cardmujer1">
+                                        <div class="modal-dialog">
+                                        <div class="modal-content"> 
+                                            <div class="modal-header">
+                                                <h1 class="modal-title">G <b> Shoes</b></h1>
+                                                
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="cardimgm">
+                                                    <img src="./Imagenes/1632632461380.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal" id="cardmujer2">
+                                        <div class="modal-dialog">
+                                        <div class="modal-content"> 
+                                            <div class="modal-header">
+                                                <h1 class="modal-title">G <b> Shoes</b></h1>
+                                                
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="cardimgm">
+                                                    <img src="./Imagenes/1632632461392.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                <!--MODALES-->
+                            </section>    
+                        </div>
+                        <div id="menu2" class="tab-pane  fade"><br>
+                            <section>
+                                <div class="row">
+
+                                    <div class="cards col-xl-3 col-md-4 col-sm-4 col-6">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="cardimg">
+                                                    <img src="https://http2.mlstatic.com/D_NQ_NP_805659-MLA46928663696_072021-V.jpg" alt="">
+                                                </div>
+                                                <div class="detalles">
+                                                    <p>Nombre</p>
+                                                    <p>S/.000</p>
+                                                    <a class="button" href="" data-bs-toggle="modal" data-bs-target="#cardaccesorios1">Ver</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+            
+                                </div>
+                                <!--MODALES MUJERES-->    
+                                    <div class="modal" id="cardaccesorios1">
+                                        <div class="modal-dialog">
+                                        <div class="modal-content"> 
+                                            <div class="modal-header">
+                                                <h1 class="modal-title">G <b> Shoes</b></h1>
+                                                
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="cardimgm">
+                                                    <img src="https://http2.mlstatic.com/D_NQ_NP_805659-MLA46928663696_072021-V.jpg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                <!--MODALES-->
+                            </section>    
+                        </div>
+                    </div>
+                </section>
+
+                <div class="w3-bar">
+                    <a href="index.html" class="w3-button w3-green">1</a>
+                </div>
+
+
+
+            </div>
+        </div>
+    </main>
+<footer>
+    <p class="drt"> Copyright <script>document.write(new Date().getFullYear())</script> by <a href="https://program09.github.io/Curriculumyordialcantarapaico/" target="_blank">Yordi Alcántara Paico</a></p>
+               
+</footer>
+</body>
+</html>

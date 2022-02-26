@@ -1,0 +1,179 @@
+
+
+section{
+    width: 100%;
+}
+.sidebar{
+    border-right: 1px solid rgb(197, 197, 197);
+}
+
+.sidebar .ul{
+    margin-top: 30px !important;
+    width: 90%;
+    margin: auto;
+    padding: 2px;
+    border: 1px solid rgb(146, 146, 146);
+}
+.sidebar .ul li{
+    width: 100%;
+    
+}
+.sidebar .ul li a:hover{
+    color:rgb(49, 49, 49) !important;
+    
+}
+
+.sidebar .ul li .active{
+    background: rgb(17, 139, 148);
+}
+
+.ul h6{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+@media (max-width: 750px){
+    .sidebar {
+        display:none;
+    }
+}
+
+
+.navegarcelphon{
+    width: 100%;
+    border-bottom: 2px solid rgb(17, 139, 148);
+}
+.navegarcelphon ul li{
+    border:0;
+    border-radius: 0 !important;
+}
+.navegarcelphon ul li a{
+    border:0;
+    border-radius: 0 !important;
+    color:rgb(58, 58, 58);
+    padding:5px;
+    margin-right: 2px;
+}
+.navegarcelphon ul li a:hover{
+    color:rgb(58, 58, 58);
+}
+
+
+
+.navegarcelphon ul li .active{
+    background: rgb(17, 139, 148) !important;
+    border:0;
+    border-radius: 0 !important;
+}
+
+.tab-content{
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+@media (min-width: 750px){
+    .navegarcelphon{
+        display: none;
+    }
+}
+
+@media (max-width: 750px){
+    .navegarcelphon{
+        margin-top: 10px;
+        visibility: visible !important;
+    }
+}
+
+.content h2{
+    color: #04AA6D !important;
+    text-align: center;
+    padding-bottom:20px;
+}
+.content p{
+    text-align: center;
+}
+
+
+
+/*BUSCADOR*/
+.buscador {
+    width: 100%;
+    display:flex;
+}
+.buscador input{
+    width: 400px;
+    outline: none;
+    border:1px solid #04AA6D ;
+    color:rgb(66, 66, 66);
+    padding-left: 5px;
+}
+.buscador button{
+    background:#04AA6D;
+    color:white;
+    border:0;
+}
+.buscador button:hover{
+    background:#08c27e;
+    color:white;
+    border:0;
+}
+
+
+.asider{
+    margin-top: 10px !important;
+    margin: auto;
+    width: 90%;
+    border: 1px solid rgb(128, 128, 128);
+    padding:5px;
+}
+
+.asider ul{
+    margin-top: 15px !important;
+    margin: 0;
+    list-style: none;
+}
+
+.asider ul li{
+    margin: 0 !important;
+    list-style: none;
+    display:flex;
+}
+.asider ul li input{
+    margin-left: -30px;
+    padding: 0;
+}
+.asider li p{ 
+    padding-left: 5px;
+    margin-top: -5px;
+
+}
+
+.asider .drt{ 
+    margin: 0;
+    text-align: center;
+}
+.asider .drt a{ 
+    color:rgb(18, 27, 107);
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+
+.w3-bar{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.w3-bar a{
+    padding: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    
+}
+.w3-green{
+    background: rgb(68, 235, 132) ;
+}
